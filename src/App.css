@@ -1,0 +1,27 @@
+.navbar{
+  background-color: rgb(35, 33, 33);
+}
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+}
+ul li{
+  margin: 0px 40px;
+  font-weight: bold
+}
+.navbar-brand{
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+a{
+  font-size: 19px;
+  color: #fff;
+}
+
+/* home section */
+
+#profile_image{
+  width:300px;
+  height:320px;
+}
