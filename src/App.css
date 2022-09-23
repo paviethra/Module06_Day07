@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.head-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header-content{
+  margin: 203px;
+}
+.btn{
+  background-color: #000;
+  color: #fff;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.navbar{
+  background-color: rgb(35, 33, 33);
+}
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-brand{
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start ;
+}
+.social-icons i{
+  margin: 0px 10px;
+}
+ul li{
+  list-style: none;
+  margin:0px 10px;
+}
+a{
+  font-size: 19px;
+  color: #fff;
+}
+i{
+  color:rgb(225, 75, 75);
+}
+
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+a {
+  color: #F85C70;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #f51330;
+  text-decoration: none;
+}
+
+.about-card{
+  border: 1px solid rgb(243, 227, 227);
+  padding: 50px;
+}
+.about-card h3{
+  margin-bottom: 40px;
+}
+#resume h2{
+  margin-top: 50px;
+}
+
+.about-card.line{
+  width:20%;
+  height: 10px;
+  color:#F85C70 ;
+}
+.about-card ul li, .p-text, .subtitle {
+  font-size: 15px;
+  line-height: 200%;
+}
+.copyrights{
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgb(61, 61, 98);
+  color: #fff;
+  margin-top: 30px;
+}
+
+.more-about i{
+  font-size: 1.5rem;
+}
+#contact{
+  margin: 80px;
+  padding: 20px;
+}
+
+.contact-form-card{
+  background-color:#fff;
+  height: 100%;
+  width: 100%;
+}
+.contact-info-card{
+  background-color:#fff;
+  width: 100%;
+  height: 100%;
+}
+
+button[type="submit"]{
+  background-color: #F85C70;
+  border: 1px solid #F85C70;
+}
+
+.icons i{
+  font-size: 1.5rem;
+  color: #000;
+}
